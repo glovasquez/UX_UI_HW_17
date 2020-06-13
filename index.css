@@ -41,7 +41,6 @@ li a:hover:not(.active) {
     display: flex;
     background-color: black;
     padding: 20px;
-  }
   
   .left, .center, .right {
     height: 50px;
