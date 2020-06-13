@@ -1,11 +1,41 @@
-/* Navigation styles */
-.logo {
-    background: white;
-    height: 230px;
-    background-image: url("../images/jakes-logo.png");
-    background-repeat: no-repeat;
-    background-position: center;
-  }
+body {
+  background-color:#232227;
+  font-family: sans-serif;
+  color:white;
+  text-align: center;
+
+  /*background-image: url("../images/.png"); */
+  /*background-repeat: no-repeat;*/
+  font-size: 18px; 
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: whitesmoke;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #111;
+}
+
+.active {
+  background-color: #c2ad89;
+}
   
   .nav {
     display: flex;
