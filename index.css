@@ -37,11 +37,8 @@ li a:hover:not(.active) {
   background-color: #c2ad89;
 }
   
-  .nav {
-    display: flex;
     background-color: black;
     padding: 20px;
-  
   .left, .center, .right {
     height: 50px;
     display: flex;
